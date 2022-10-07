@@ -1,3 +1,39 @@
 html {
   font-family: Roboto, sans-serif;
 }
+
+/* header nav-bg {
+  background-color: #212121;
+  height: 50px;
+} */
+
+header nav {
+  background-color: #3c3b3b;
+  min-height: 50px;
+}
+
+header nav .container-xxl {
+}
+
+header nav .container-xxl .nav-item {
+}
+
+header nav .container-xxl .nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border-right: 2px dotted black;
+  padding: 0 46px;
+}
+header nav .container-xxl .nav-item a:hover {
+  text-decoration: underline;
+}
+
+header nav .container-xxl ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  /* padding: 10px; */
+  padding-top: 11px;
+  /* border-right-color: bisque; */
+}
