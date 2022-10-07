@@ -2,20 +2,10 @@ html {
   font-family: Roboto, sans-serif;
 }
 
-/* header nav-bg {
-  background-color: #212121;
-  height: 50px;
-} */
-
+/* HEADER section */
 header nav {
   background-color: #3c3b3b;
   min-height: 50px;
-}
-
-header nav .container-xxl {
-}
-
-header nav .container-xxl .nav-item {
 }
 
 header nav .container-xxl .nav-item a {
@@ -33,7 +23,12 @@ header nav .container-xxl ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  /* padding: 10px; */
   padding-top: 11px;
-  /* border-right-color: bisque; */
 }
+
+header .menu-bottom {
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* header .menu-bottom .container-xxl */
