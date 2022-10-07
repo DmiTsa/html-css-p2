@@ -27,8 +27,51 @@ header nav .container-xxl ul {
 }
 
 header .menu-bottom {
-  height: 90px;
+  min-height: 90px;
   background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
-/* header .menu-bottom .container-xxl */
+header .menu-bottom .container-xxl .logo-text {
+  font-weight: 100;
+  font-size: 13px;
+  color: #ffffff;
+  margin-top: 3px;
+}
+
+header .menu-bottom .container-xxl .logo {
+  max-width: 100%;
+}
+header .menu-bottom .container-xxl .text-phone-1 {
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: right;
+}
+
+header .menu-bottom .container-xxl .text-phone-2 a {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .menu-bottom .container-xxl button {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 11px;
+  text-align: center;
+
+  width: 170px;
+  height: 45px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  outline: 0;
+}
