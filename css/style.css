@@ -8,18 +8,18 @@ header nav {
   min-height: 50px;
 }
 
-header nav .container-xxl .nav-item a {
+header nav .container .nav-item a {
   display: block;
   text-decoration: none;
   color: #ffffff;
   border-right: 2px dotted black;
   padding: 0 46px;
 }
-header nav .container-xxl .nav-item a:hover {
+header nav .container .nav-item a:hover {
   text-decoration: underline;
 }
 
-header nav .container-xxl ul {
+header nav .container ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -33,24 +33,24 @@ header .menu-bottom {
   padding-bottom: 15px;
 }
 
-header .menu-bottom .container-xxl .logo-text {
+header .menu-bottom .container .logo-text {
   font-weight: 100;
   font-size: 13px;
   color: #ffffff;
   margin-top: 3px;
 }
 
-header .menu-bottom .container-xxl .logo {
+header .menu-bottom .container .logo {
   max-width: 100%;
 }
-header .menu-bottom .container-xxl .text-phone-1 {
+header .menu-bottom .container .text-phone-1 {
   font-weight: 300;
   font-size: 12px;
   color: #ffffff;
   text-align: right;
 }
 
-header .menu-bottom .container-xxl .text-phone-2 a {
+header .menu-bottom .container .text-phone-2 a {
   display: block;
   font-weight: 400;
   font-size: 22px;
@@ -60,7 +60,7 @@ header .menu-bottom .container-xxl .text-phone-2 a {
   text-decoration: none;
 }
 
-header .menu-bottom .container-xxl button {
+header .menu-bottom .container button {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -74,4 +74,16 @@ header .menu-bottom .container-xxl button {
   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   outline: 0;
+}
+
+/* PROMO section */
+.promo {
+  /* margin-top: 0px; */
+  min-height: 800px;
+  background-image: url('/img/uber_bg.png');
+}
+
+.promo .container {
+  display: block;
+  padding-top: 90px;
 }
