@@ -26,8 +26,9 @@ header
           color: #ffffff
           border-right: 2px dotted black
           padding: 0 46px
-      // a:hover 
-      // text-decoration: underline
+          transition: 0.5s all
+        a:hover 
+          text-decoration: underline
   .menu-bottom
     position: absolute
     width: 100%
@@ -69,6 +70,10 @@ header
       box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
       border-radius: 5px
       outline: 0
+      transition: all 0s ease 1s
+    button:hover
+      background: linear-gradient(0deg, #94c71e 0%, #76ff4c 100%)
+
 
 /* PROMO section */
 .promo
@@ -172,13 +177,10 @@ header
           line-height: 21px
 /* MOBILE section */
 .mobile
-  // display: flex
-  // flex-direction: column
   padding-top: 30px
   text-align: center
   background: url('../img/mobile_bg.png') center center/cover no-repeat
   min-height: 865px
-
   .mobile-header
     color: #ffffff
     font-weight: 400
@@ -204,7 +206,6 @@ header
   .items
     padding-top: 20px
     padding-bottom: 70px
-    // position: relative
     .item
       margin: 0 auto
       margin-top: 10px
@@ -249,5 +250,48 @@ header
       line-height: 22px
       color: #1EACC7
       cursor: pointer
-
+/* CHIOCE section */
+.choice
+  padding-top: 55px
+  text-align: center
+  background: url('../img/choice_bg.png') center center/cover no-repeat
+  min-height: 900px
+  .choice-header
+    color: #000000
+    font-weight: 400
+    font-size: 11px
+    text-transform: uppercase
+    text-align: center
+    padding-top: 6px
+    display: block
+    width: 115px
+    height: 25px
+    margin: 0 auto
+    background-color: #ffffff
+  .choice-header-big
+    font-weight: 700
+    font-size: 38px
+    margin-top: 20px
+    text-transform: uppercase
+    color: #ffffff
+  .choice-header-text
+    font-weight: 400
+    font-size: 17px
+    color: #ffffff
+  .auto
+    margin: 0 auto
+    width: 760px
+    height: 480px
+    background: url('../img/auto.png') center center/cover no-repeat
+    margin-top: 55px
+  .bottom-text
+    display: block
+    margin: 0 auto
+    width: 330px
+    height: 50px
+    font-weight: 300
+    font-size: 17px
+    line-height: 24px
+    text-align: center
+    color: #222222
 
