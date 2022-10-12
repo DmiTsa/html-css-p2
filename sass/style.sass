@@ -303,9 +303,6 @@ header
     color: #222222
 /* REQUIRE section */
 .require
-  // display: flex
-  // margin: 0 auto
-  // text-align: center
   padding-top: 65px
   min-height: 765px
   &_text
@@ -328,12 +325,10 @@ header
     text-transform: uppercase
     color: #000000
   &_items
-    // margin-top: 35px
     display: flex
     flex-wrap: wrap
   &_item
     margin: 30px 0
-    // min-width: 550px
   &_col-header-blue
     font-weight: 400
     font-size: 22px
@@ -344,7 +339,6 @@ header
     font-weight: 300
     font-size: 17px
     line-height: 24px
-    // text-indent: 50px
     color: #222222
   &_blue-item_text
     font-weight: 300
@@ -352,3 +346,19 @@ header
     line-height: 24px
     color: #1CA8C3
     margin-top: 25px
+  &_col-header-red
+    font-weight: 400
+    font-size: 22px
+    line-height: 24px
+    color: #FF5656
+    margin-bottom: 20px
+  &_red-item
+    font-weight: 300
+    font-size: 17px
+    line-height: 24px
+    color: #222222
+    & li
+      list-style-type: none
+      margin-left: 50px
+      &::before
+        content: 'wee'
