@@ -336,10 +336,23 @@ header
     color: #1CA8C3
     margin-bottom: 20px
   &_blue-item
+    margin-left: 5px
     font-weight: 300
     font-size: 17px
-    line-height: 24px
+    line-height: 30px
     color: #222222
+    & li
+      list-style-type: none
+      margin-left: -20px
+      text-indent: 5px
+      &::before
+        content: ''
+        display: inline-block
+        width: 20px
+        height: 20px
+        margin-right: 10px
+        transform: translate(0px, 4px)
+        background: url('../icons/check_blue_icon.png') center center/cover no-repeat
   &_blue-item_text
     font-weight: 300
     font-size: 17px
@@ -355,10 +368,16 @@ header
   &_red-item
     font-weight: 300
     font-size: 17px
-    line-height: 24px
+    line-height: 30px
     color: #222222
     & li
       list-style-type: none
-      margin-left: 50px
+      margin-left: -20px
       &::before
-        content: 'wee'
+        content: ''
+        display: inline-block
+        width: 20px
+        height: 20px
+        margin-right: 10px
+        transform: translate(0px, 4px)
+        background: url('../icons/check_red_icon.png') center center/cover no-repeat
