@@ -14,19 +14,19 @@ header
       justify-content: space-between
       list-style-type: none
       padding-top: 11px
+        &:last-child
+          border-right: none
       &_nav-item
-      border-right: 2px dotted black
         a
           display: block
           text-decoration: none
           color: #ffffff
+          border-right: 2px dotted black
           font-size: 15px
           padding-right: 50px
           transition: 0.5s all
-      // &:last-child
-      //   border-right: none
-        a:hover 
-          text-decoration: underline
+      a:hover 
+        text-decoration: underline
   .menu-bottom
     position: absolute
     width: 100%
