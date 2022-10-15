@@ -139,9 +139,10 @@ header {
 /* REASON section */
 .reason {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   padding-top: 30px;
   text-align: center;
+  flex-wrap: wrap;
   &_header-text {
     color: #ffffff;
     font-weight: 400;
@@ -376,8 +377,10 @@ header {
   &_items {
     display: flex;
     flex-wrap: wrap;
+
     &_item {
-      margin: 30px 0 &_col-header {
+      margin: 30px 0;
+      &_col-header {
         font-weight: 400;
         font-size: 22px;
         line-height: 24px;
@@ -389,31 +392,32 @@ header {
         font-size: 17px;
         line-height: 30px;
         color: #222222;
-        li {
-          list-style-type: none;
-          margin-left: -20px;
-          text-indent: 5px;
-          &:before {
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-            transform: translate(0px, 4px);
-            background: url('../icons/check_blue_icon.png') center center/cover
-              no-repeat;
-          }
-        }
       }
-      // &_descr {
-
-      // }
-      .red {
-        color: #ff5656;
+    }
+    .blue-check {
+      li {
+        list-style-type: none;
+        margin-left: -20px;
+        text-indent: 5px;
+        @include blue-check;
       }
-      .blue {
-        color: #1ca8c3;
+    }
+    .red-check {
+      li {
+        list-style-type: none;
+        margin-left: -20px;
+        text-indent: 5px;
+        @include red-check;
       }
+    }
+    .descr {
+      margin-top: 25px;
+    }
+    .red {
+      color: #ff5656;
+    }
+    .blue {
+      color: #1ca8c3;
     }
   }
 }
