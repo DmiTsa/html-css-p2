@@ -8,6 +8,32 @@
       font-size: 50px;
     }
   }
+  .reason {
+    &_items {
+      &_item {
+        &_text {
+          width: 265px;
+        }
+      }
+    }
+  }
+  .mobile {
+    &_items {
+      &_item {
+        width: 300px;
+        &_text {
+          font-size: 21px;
+        }
+      }
+    }
+  }
+  footer {
+    .content {
+      &_social {
+        width: 145px;
+      }
+    }
+  }
 }
 
-// @media (max-width: 992px)
+// @media (max-width: 991px)
